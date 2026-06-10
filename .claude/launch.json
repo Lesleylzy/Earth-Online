@@ -1,3 +1,11 @@
 {
-  "data": "ewogICJ2ZXJzaW9uIjogIjAuMC4xIiwKICAiY29uZmlndXJhdGlvbnMiOiBbCiAgICB7CiAgICAgICJuYW1lIjogImRldiIsCiAgICAgICJydW50aW1lRXhlY3V0YWJsZSI6ICJucG0iLAogICAgICAicnVudGltZUFyZ3MiOiBbInJ1biIsICJkZXYiXSwKICAgICAgInBvcnQiOiAzMDAwCiAgICB9CiAgXQp9Cg=="
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "port": 3000
+    }
+  ]
 }

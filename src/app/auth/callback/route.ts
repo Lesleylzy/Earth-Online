@@ -1,3 +1,29 @@
-{
-  "data": "aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJwppbXBvcnQgeyBOZXh0UmVxdWVzdCwgTmV4dFJlc3BvbnNlIH0gZnJvbSAnbmV4dC9zZXJ2ZXInCgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gR0VUKHJlcXVlc3Q6IE5leHRSZXF1ZXN0KSB7CiAgY29uc3QgcmVxdWVzdFVybCA9IG5ldyBVUkwocmVxdWVzdC51cmwpCiAgY29uc3QgY29kZSA9IHJlcXVlc3RVcmwuc2VhcmNoUGFyYW1zLmdldCgnY29kZScpCiAgY29uc3QgdG9rZW5faGFzaCA9IHJlcXVlc3RVcmwuc2VhcmNoUGFyYW1zLmdldCgndG9rZW5faGFzaCcpCiAgY29uc3QgdHlwZSA9IHJlcXVlc3RVcmwuc2VhcmNoUGFyYW1zLmdldCgndHlwZScpCgogIGlmICh0b2tlbl9oYXNoICYmIHR5cGUpIHsKICAgIC8vIEVtYWlsIGNvbmZpcm1hdGlvbiB2aWEgdG9rZW4gaGFzaCAoZGVmYXVsdCBTdXBhYmFzZSBmbG93KQogICAgY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoCiAgICAgIHByb2Nlc3MuZW52Lk5FWFRfUFVCTElDX1NVUEFCQVNFX1VSTCEsCiAgICAgIHByb2Nlc3MuZW52Lk5FWFRfUFVCTElDX1NVUEFCQVNFX0FOT05fS0VZISwKICAgICkKICAgIGF3YWl0IHN1cGFiYXNlLmF1dGgudmVyaWZ5T3RwKHsgdG9rZW5faGFzaCwgdHlwZTogdHlwZSBhcyAnc2lnbnVwJyB8ICdlbWFpbCcgfSkKICB9CgogIGlmIChjb2RlKSB7CiAgICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudCgKICAgICAgcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfU1VQQUJBU0VfVVJMISwKICAgICAgcHJvY2Vzcy5lbnYuTkVYVF9QVUJMSUNfU1VQQUJBU0VfQU5PTl9LRVkhLAogICAgKQogICAgYXdhaXQgc3VwYWJhc2UuYXV0aC5leGNoYW5nZUNvZGVGb3JTZXNzaW9uKGNvZGUpCiAgfQoKICAvLyBSZWRpcmVjdCB0byBob21lIHBhZ2UgYWZ0ZXIgdmVyaWZpY2F0aW9uCiAgcmV0dXJuIE5leHRSZXNwb25zZS5yZWRpcmVjdChuZXcgVVJMKCcvP3ZlcmlmaWVkPTEnLCByZXF1ZXN0LnVybCkpCn0K"
+import { createClient } from '@supabase/supabase-js'
+import { NextRequest, NextResponse } from 'next/server'
+
+export async function GET(request: NextRequest) {
+  const requestUrl = new URL(request.url)
+  const code = requestUrl.searchParams.get('code')
+  const token_hash = requestUrl.searchParams.get('token_hash')
+  const type = requestUrl.searchParams.get('type')
+
+  if (token_hash && type) {
+    // Email confirmation via token hash (default Supabase flow)
+    const supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    )
+    await supabase.auth.verifyOtp({ token_hash, type: type as 'signup' | 'email' })
+  }
+
+  if (code) {
+    const supabase = createClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+    )
+    await supabase.auth.exchangeCodeForSession(code)
+  }
+
+  // Redirect to home page after verification
+  return NextResponse.redirect(new URL('/?verified=1', request.url))
 }

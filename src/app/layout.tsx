@@ -1,3 +1,19 @@
-{
-  "data": "aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gJ25leHQnCmltcG9ydCAnLi9nbG9iYWxzLmNzcycKCmV4cG9ydCBjb25zdCBtZXRhZGF0YTogTWV0YWRhdGEgPSB7CiAgdGl0bGU6ICdFQVJUSCBPTkxJTkUnLAogIGRlc2NyaXB0aW9uOiAnWW91ciByZWFsLWxpZmUgcXVlc3Qgc3lzdGVtJywKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUm9vdExheW91dCh7IGNoaWxkcmVuIH06IHsgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZSB9KSB7CiAgcmV0dXJuICgKICAgIDxodG1sIGxhbmc9ImVuIj4KICAgICAgPGhlYWQ+CiAgICAgICAgPGxpbmsgaHJlZj0iaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1TcGFjZStHcm90ZXNrOndnaHRAMzAwOzQwMDs1MDA7NjAwOzcwMCZkaXNwbGF5PXN3YXAiIHJlbD0ic3R5bGVzaGVldCIgLz4KICAgICAgICA8bGluayBocmVmPSJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PU1hdGVyaWFsK1N5bWJvbHMrT3V0bGluZWQ6d2dodCxGSUxMQDEwMC4uNzAwLDAuLjEmZGlzcGxheT1zd2FwIiByZWw9InN0eWxlc2hlZXQiIC8+CiAgICAgIDwvaGVhZD4KICAgICAgPGJvZHk+e2NoaWxkcmVufTwvYm9keT4KICAgIDwvaHRtbD4KICApCn0K"
+import type { Metadata } from 'next'
+import './globals.css'
+
+export const metadata: Metadata = {
+  title: 'EARTH ONLINE',
+  description: 'Your real-life quest system',
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+      </head>
+      <body>{children}</body>
+    </html>
+  )
 }

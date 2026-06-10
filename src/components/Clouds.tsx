@@ -1,3 +1,34 @@
-{
-  "data": "J3VzZSBjbGllbnQnCgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBDbG91ZHMoKSB7CiAgcmV0dXJuICgKICAgIDw+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJjbG91ZCBjMSI+CiAgICAgICAgPGRpdiBzdHlsZT17eyBwb3NpdGlvbjogJ3JlbGF0aXZlJywgd2lkdGg6IDMwMCwgaGVpZ2h0OiA4MCB9fT4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYiIgc3R5bGU9e3sgd2lkdGg6IDEyMCwgaGVpZ2h0OiA0MCwgdG9wOiAzMCwgbGVmdDogNDAgfX0gLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYiIgc3R5bGU9e3sgd2lkdGg6IDgwLCBoZWlnaHQ6IDUwLCB0b3A6IDEwLCBsZWZ0OiA4MCB9fSAvPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNiIiBzdHlsZT17eyB3aWR0aDogNjAsIGhlaWdodDogMzUsIHRvcDogMjAsIGxlZnQ6IDE1MCB9fSAvPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzc05hbWU9ImNsb3VkIGMyIj4KICAgICAgICA8ZGl2IHN0eWxlPXt7IHBvc2l0aW9uOiAncmVsYXRpdmUnLCB3aWR0aDogMjIwLCBoZWlnaHQ6IDYwIH19PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNiIiBzdHlsZT17eyB3aWR0aDogMTAwLCBoZWlnaHQ6IDM1LCB0b3A6IDIwLCBsZWZ0OiAyMCB9fSAvPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNiIiBzdHlsZT17eyB3aWR0aDogNzAsIGhlaWdodDogNDAsIHRvcDogNSwgbGVmdDogNjAgfX0gLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYiIgc3R5bGU9e3sgd2lkdGg6IDgwLCBoZWlnaHQ6IDI4LCB0b3A6IDIyLCBsZWZ0OiAxMTAgfX0gLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJjbG91ZCBjMyI+CiAgICAgICAgPGRpdiBzdHlsZT17eyBwb3NpdGlvbjogJ3JlbGF0aXZlJywgd2lkdGg6IDI1MCwgaGVpZ2h0OiA2NSB9fT4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYiIgc3R5bGU9e3sgd2lkdGg6IDExMCwgaGVpZ2h0OiAzNSwgdG9wOiAyNSwgbGVmdDogMzAgfX0gLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYiIgc3R5bGU9e3sgd2lkdGg6IDc1LCBoZWlnaHQ6IDQ1LCB0b3A6IDgsIGxlZnQ6IDcwIH19IC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzTmFtZT0iY2xvdWQgYzQiPgogICAgICAgIDxkaXYgc3R5bGU9e3sgcG9zaXRpb246ICdyZWxhdGl2ZScsIHdpZHRoOiAxODAsIGhlaWdodDogNTUgfX0+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2IiIHN0eWxlPXt7IHdpZHRoOiA5MCwgaGVpZ2h0OiAzMCwgdG9wOiAxOCwgbGVmdDogMTUgfX0gLz4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYiIgc3R5bGU9e3sgd2lkdGg6IDY1LCBoZWlnaHQ6IDM4LCB0b3A6IDUsIGxlZnQ6IDU1IH19IC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC8+CiAgKQp9Cg=="
+'use client'
+
+export default function Clouds() {
+  return (
+    <>
+      <div className="cloud c1">
+        <div style={{ position: 'relative', width: 300, height: 80 }}>
+          <div className="cb" style={{ width: 120, height: 40, top: 30, left: 40 }} />
+          <div className="cb" style={{ width: 80, height: 50, top: 10, left: 80 }} />
+          <div className="cb" style={{ width: 60, height: 35, top: 20, left: 150 }} />
+        </div>
+      </div>
+      <div className="cloud c2">
+        <div style={{ position: 'relative', width: 220, height: 60 }}>
+          <div className="cb" style={{ width: 100, height: 35, top: 20, left: 20 }} />
+          <div className="cb" style={{ width: 70, height: 40, top: 5, left: 60 }} />
+          <div className="cb" style={{ width: 80, height: 28, top: 22, left: 110 }} />
+        </div>
+      </div>
+      <div className="cloud c3">
+        <div style={{ position: 'relative', width: 250, height: 65 }}>
+          <div className="cb" style={{ width: 110, height: 35, top: 25, left: 30 }} />
+          <div className="cb" style={{ width: 75, height: 45, top: 8, left: 70 }} />
+        </div>
+      </div>
+      <div className="cloud c4">
+        <div style={{ position: 'relative', width: 180, height: 55 }}>
+          <div className="cb" style={{ width: 90, height: 30, top: 18, left: 15 }} />
+          <div className="cb" style={{ width: 65, height: 38, top: 5, left: 55 }} />
+        </div>
+      </div>
+    </>
+  )
 }

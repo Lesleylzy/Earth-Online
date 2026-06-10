@@ -1,3 +1,198 @@
-{
-  "data": "IyBFQVJUSCBPTkxJTkUg4oCUIFNlc3Npb24gSGFuZG9mZgoKIyMgUHJvamVjdCBPdmVydmlldwoqKkVBUlRIIE9OTElORSoqIGlzIGEgcmV0cm8gcGl4ZWwtYXJ0ICJyZWFsLWxpZmUgcXVlc3QiIHdlYnNpdGUuIFVzZXJzIHJlY2VpdmUgcmFuZG9tIHJlYWwtd29ybGQgbWlzc2lvbnMgZGlzcGxheWVkIGluc2lkZSBhIENSVCBtb25pdG9yIFVJLCBhbmQgY2FuIG1hcmsgdGhlbSBET05FIG9yIFNLSVAuIEZlYXR1cmVzIGluY2x1ZGUgdXNlciBhdXRoLCBiaWxpbmd1YWwgVUkgKEVOL0NOKSwgcHVibGljICsgY3VzdG9tIHRhc2sgdHJhY2tzLCBhbmQgYW4gYWRtaW4gcGFuZWwuCgotICoqTGl2ZSBVUkwqKjogaHR0cHM6Ly9lYXJ0aC1vbmxpbmUtZ2FtbWEudmVyY2VsLmFwcAotICoqU3RhY2sqKjogTmV4dC5qcyAxNiAoQXBwIFJvdXRlcikgKyBUYWlsd2luZCBDU1MgNCArIFN1cGFiYXNlICsgVmVyY2VsCi0gKipQYXRoKio6IGAvVXNlcnMvbGl1emhpeXUvRGVza3RvcC9DbGF1ZGUvZWFydGgtb25saW5lYAoKLS0tCgojIyBFbnZpcm9ubWVudCAmIENyZWRlbnRpYWxzCgojIyMgYC5lbnYubG9jYWxgCmBgYApORVhUX1BVQkxJQ19TVVBBQkFTRV9VUkw9aHR0cHM6Ly9pd25kYmxqcHlmYmx1dHRjbnF2cS5zdXBhYmFzZS5jbwpORVhUX1BVQkxJQ19TVVBBQkFTRV9BTk9OX0tFWT1leUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcGMzTWlPaUp6ZFhCaFltRnpaU0lzSW5KbFppSTZJbWwzYm1SaWJHcHdlV1ppYkhWMGRHTnVjWFp4SWl3aWNtOXNaU0k2SW1GdWIyNGlMQ0pwWVhRaU9qRTNOelUxTmpjM056Y3NJbVY0Y0NJNk1qQTVNVEUwTXpjM04zMC5pMTQwY09ZdUFrcV9FcG50VHZMckdIWTRJX3diMzFhbjFIX2pYTWNKZ1NjCkFETUlOX0VNQUlMPTI3OTk3ODY5OTZAcXEuY29tCmBgYAoKIyMjIE5ldHdvcmsgKENoaW5hKQpBbGwgbnBtL1ZlcmNlbC9TdXBhYmFzZSBjb21tYW5kcyByZXF1aXJlIHByb3h5OgpgYGBiYXNoCmV4cG9ydCBQQVRIPSIvdXNyL2xvY2FsL2JpbjokUEFUSCIKZXhwb3J0IGh0dHBzX3Byb3h5PWh0dHA6Ly8xMjcuMC4wLjE6MTA4MgpleHBvcnQgaHR0cF9wcm94eT1odHRwOi8vMTI3LjAuMC4xOjEwODIKYGBgCgojIyMgQ29tbWFuZHMKYGBgYmFzaApucG0gcnVuIGRldiAgICAgICAgICAjIERldiBzZXJ2ZXIgb24gOjMwMDAKbnBtIHJ1biBidWlsZCAgICAgICAgIyBQcm9kdWN0aW9uIGJ1aWxkCm5weCB2ZXJjZWwgLS15ZXMgLS1wcm9kICAgIyBEZXBsb3kgdG8gVmVyY2VsIChuZWVkcyBwcm94eSkKYGBgCgotLS0KCiMjIEZpbGUgU3RydWN0dXJlIChrZXkgZmlsZXMgb25seSkKCmBgYApzcmMvCiAgYXBwLwogICAgcGFnZS50c3ggICAgICAgICAgICAgICMgSnVzdCByZW5kZXJzIDxHYW1lIC8+CiAgICBsYXlvdXQudHN4ICAgICAgICAgICAgIyBIVE1MIGhlYWQgKEdvb2dsZSBGb250czogU3BhY2UgR3JvdGVzayArIE1hdGVyaWFsIFN5bWJvbHMpCiAgICBnbG9iYWxzLmNzcyAgICAgICAgICAgIyBBTEwgY3VzdG9tIENTUyAoMjk0IGxpbmVzKSDigJQgbW9uaXRvciwgYnV0dG9ucywgYW5pbWF0aW9ucywgbW9iaWxlIHJlc3BvbnNpdmUKICAgIGFkbWluL3BhZ2UudHN4ICAgICAgICAjIEFkbWluIHBhbmVsIOKAlCB0YXNrIENSVUQsIGJ1bGsgaW1wb3J0LCBwZW5kaW5nIHJldmlldywgc3RhdHMKICAgIGF1dGgvY2FsbGJhY2svcm91dGUudHMgIyBIYW5kbGVzIGVtYWlsIHZlcmlmaWNhdGlvbiArIE9BdXRoIHJlZGlyZWN0cyDihpIgLz92ZXJpZmllZD0xCiAgY29tcG9uZW50cy8KICAgIEdhbWUudHN4ICAgICAgICAgICAgICAjIFRIRSBNQUlOIEZJTEUgKDk5MyBsaW5lcykg4oCUIGFsbCBnYW1lIGxvZ2ljICsgc2NyZWVuIHJlbmRlcmluZwogICAgTW9uaXRvci50c3ggICAgICAgICAgICMgQ1JUIG1vbml0b3Igc2hlbGwgKGRpdi5jb21wdXRlci13cmFwID4gZGl2Lm1vbiA+IGRpdi5zY24pCiAgICBDbG91ZHMudHN4ICAgICAgICAgICAgIyBBbmltYXRlZCBjbG91ZCBlbGVtZW50cwogICAgVGFncy50c3ggICAgICAgICAgICAgICMgQm90dG9tIG5hdiB0YWdzIChDVVNUT01JWkUgLyBQUk9HUkVTUyAvIE9GRkVSIEEgTUlTU0lPTikKICBsaWIvCiAgICBzdXBhYmFzZS50cyAgICAgICAgICAgIyBTdXBhYmFzZSBjbGllbnQgc2luZ2xldG9uCiAgICB0cmFuc2xhdGlvbnMudHMgICAgICAgIyBUWCBvYmplY3Qg4oCUIGFsbCBFTi9DTiBVSSBzdHJpbmdzLCBOTyB0cmFuc2xhdGlvbiBBUEkKICAgIGNyaXR0ZXJzLnRzICAgICAgICAgICAjIDYgcGl4ZWwgYW5pbWFsIFNWR3MgKGNhdCwgZG9nLCByYWJiaXQsIGJpcmQsIGZyb2csIGZpc2gpCiAgICBzdG9yZS50cyAgICAgICAgICAgICAgIyBUeXBlU2NyaXB0IHR5cGVzOiBQdWJsaWNUYXNrLCBDdXN0b21UYXNrLCBHYW1lU3RhdGUKc3VwYWJhc2Utc2NoZW1hLnNxbCAgICAgICAjIEZ1bGwgREIgc2NoZW1hICsgUkxTIHBvbGljaWVzCnNjcmlwdHMvCiAgcnVuLXNlZWQubWpzICAgICAgICAgICAgIyBTZWVkcyAyOTUgdGFza3MgKHVzZXMgc2VydmljZV9yb2xlIGtleSArIHByb3h5KQogIGZpeC1xdW90ZXMubWpzICAgICAgICAgICMgRml4ZWQgQVNDSUkgcXVvdGVzIOKGkiBzbWFydCBxdW90ZXMgaW4gREIKYGBgCgotLS0KCiMjIEdhbWUudHN4IEFyY2hpdGVjdHVyZSAoOTkzIGxpbmVzLCBzaW5nbGUgY2xpZW50IGNvbXBvbmVudCkKCiMjIyBTdGF0ZQp8IFN0YXRlIHwgUHVycG9zZSB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBgbGFuZ2AgfCAnZW4nIG9yICdjbicsIHBlcnNpc3RlZCB0byBsb2NhbFN0b3JhZ2UgfAp8IGBzY3JlZW5gIHwgQ3VycmVudCB2aWV3OiBob21lL2Jvb3QvdGFzay9uZXh0L2NlbGVicmF0ZS9jdXN0b21pemUvcHJvZ3Jlc3Mvc3RhdGxpc3Qvb2ZmZXIvc2lnbmluIHwKfCBgY3VzdG9tTW9kZWAgfCBUb2dnbGUgYmV0d2VlbiBwdWJsaWMgYW5kIGN1c3RvbSB0YXNrIHRyYWNrcywgcGVyc2lzdGVkIHRvIGxvY2FsU3RvcmFnZSB8CnwgYHVzZXJgIHwgYHtpZCwgZW1haWwsIHVzZXJuYW1lfWAgb3IgbnVsbCB8CnwgYHB1YmxpY1Rhc2tzYCB8IEFycmF5IG9mIGB7aWQsIGNvbnRlbnRfZW4sIGNvbnRlbnRfY24sIGNhdGVnb3J5fWAgZnJvbSBEQiB8CnwgYGN1c3RvbVRhc2tzYCB8IEFycmF5IG9mIGB7aWQsIGNvbnRlbnR9YCDigJQgdXNlci1jcmVhdGVkIHwKfCBgY29tcGxldGVkUHVibGljL0N1c3RvbWAgfCBBcnJheXMgb2YgY29tcGxldGVkIHRhc2sgSURzIHwKfCBgc2tpcHBlZFB1YmxpYy9DdXN0b21gIHwgQXJyYXlzIG9mIHNraXBwZWQgdGFzayBJRHMgfAp8IGBjdXJyZW50VGFza0lkYCB8IEN1cnJlbnRseSBkaXNwbGF5ZWQgdGFzayB8CnwgYHRhc2tzTG9hZGVkYCB8IEJvb2xlYW4g4oCUIGdhdGVzIEVOVEVSIGJ1dHRvbiB0byBwcmV2ZW50IGNlbGVicmF0aW9uLW9uLXJlZnJlc2ggYnVnIHwKfCBgaGFzUGxheWVkYCB8IFdoZXRoZXIgdXNlciBoYXMgZW50ZXJlZCBhIGdhbWUgc2Vzc2lvbiB8CnwgYHNhdmluZ0N1c3RgIC8gYGFjdGlvbkJ1c3lgIHwgRGVib3VuY2UgZmxhZ3MgfAoKIyMjIEtleSBGdW5jdGlvbnMKLSAqKmBzdGFydEJvb3QoKWAqKiDigJQgQm9vdCB0ZXJtaW5hbCBhbmltYXRpb24g4oaSIHBpY2tzIHJhbmRvbSB0YXNrIOKGkiBzaG93cyB0YXNrIHNjcmVlbi4gR3VhcmRlZCBieSBgdGFza3NMb2FkZWRgLgotICoqYGRvRG9uZSgpYCAvIGBkb1NraXAoKWAqKiDigJQgT3B0aW1pc3RpYyBVSSB1cGRhdGVzIChpbnN0YW50KSwgREIgc3luYyBpbiBiYWNrZ3JvdW5kIChmaXJlLWFuZC1mb3JnZXQpLgotICoqYHNob3dDZWxlYnJhdGlvbigpYCoqIOKAlCBGaXJld29ya3MgY2FudmFzIGFuaW1hdGlvbiB3aXRoIGBmd1J1bklkYCBwYXR0ZXJuIHRvIHByZXZlbnQgYW5pbWF0aW9uIHNwZWVkdXAgb24gcmUtdHJpZ2dlci4KLSAqKmBjdXN0U2F2ZSgpYCoqIOKAlCBPcHRpbWlzdGljIGFkZCB3aXRoIHRlbXAgSUQsIHJlcGxhY2VkIGJ5IHJlYWwgREIgSUQgaW4gYmFja2dyb3VuZC4KLSAqKmBkb0F1dGgoKWAqKiDigJQgSGFuZGxlcyBib3RoIHNpZ24gaW4gYW5kIHJlZ2lzdGVyLiBSZWdpc3RlciBzZW5kcyB2ZXJpZmljYXRpb24gZW1haWwgdmlhIFN1cGFiYXNlLgotICoqYHN5bmNGcm9tREIoKWAqKiDigJQgT24gbG9naW4sIGxvYWRzIGNvbXBsZXRpb25zL3NraXBzL2N1c3RvbSB0YXNrcyBmcm9tIERCLCBtZXJnZXMgd2l0aCBsb2NhbCBzdGF0ZS4KCiMjIyBTY3JlZW5zIFJlbmRlcmVkIChjb25kaXRpb25hbGx5IGJ5IGBzY3JlZW5gIHN0YXRlKQoxLiAqKmhvbWUqKiDigJQgVGl0bGUgIkVBUlRIIE9OTElORSIgKyBFTlRFUiBidXR0b24gKyByb2RlbnQgaWNvbiArIFRhZ3MKMi4gKipib290Kiog4oCUIFRlcm1pbmFsIGFuaW1hdGlvbiBpbnNpZGUgTW9uaXRvcgozLiAqKnRhc2sqKiDigJQgVGFzayB0ZXh0ICsgU0tJUC9ET05FIGJ1dHRvbnMgaW5zaWRlIE1vbml0b3IKNC4gKipuZXh0Kiog4oCUIFJhbmRvbSBwaXhlbCBhbmltYWwgKyAiTkVYVCBNSVNTSU9OIiArIHJhbmRvbSBzdWJ0aXRsZQo1LiAqKmNlbGVicmF0ZSoqIOKAlCBGaXJld29ya3MgY2FudmFzICsgY29uZ3JhdHVsYXRpb25zICsgSE9NRS9QTEFZIEFHQUlOL1BST0dSRVNTCjYuICoqY3VzdG9taXplKiog4oCUIEN1c3RvbSB0YXNrIGxpc3QgKyBpbnB1dCArIENVU1RPTSBPTi9PRkYgdG9nZ2xlCjcuICoqcHJvZ3Jlc3MqKiDigJQgUHJvZ3Jlc3MgYmFyICsgcGVyY2VudGFnZSArIERPTkUvUkVNQUlOSU5HL1NLSVBQRUQgc3RhdHMKOC4gKipzdGF0bGlzdCoqIOKAlCBTY3JvbGxhYmxlIGxpc3Qgb2YgdGFza3MgYnkgY2F0ZWdvcnkgKGRvbmUvcmVtYWluaW5nL3NraXBwZWQpCjkuICoqb2ZmZXIqKiDigJQgRW1haWwtc3R5bGUgZm9ybSB0byBzdWdnZXN0IG1pc3Npb25zIOKGkiBwZW5kaW5nX3Rhc2tzIHRhYmxlCjEwLiAqKnNpZ25pbioqIOKAlCBTaWduIEluIC8gUmVnaXN0ZXIgdGFicyArIEZvcmdvdCBQYXNzd29yZCBmbG93CgotLS0KCiMjIENTUyBBcmNoaXRlY3R1cmUgKGdsb2JhbHMuY3NzLCAyOTQgbGluZXMpCgojIyMgRGVza3RvcCAoZGVmYXVsdCkKLSBgLm1vbmAg4oCUIDU4MHg0NDBweCwgYmV2ZWxlZCBncmF5IGZyYW1lIHdpdGggaW5zZXQgc2hhZG93cwotIGAuc2NuYCDigJQgRGFyayBzY3JlZW4gd2l0aCBzY2FubGluZSBvdmVybGF5ICg6OmFmdGVyKSwgZmxleCBjZW50ZXIKLSBgLnN0YW5kYCDigJQgMzAweDQ4cHggY29ubmVjdG9yIHBpZWNlCi0gYC5iYXNlYCDigJQgNjIweDcycHggYm90dG9tIHdpdGggZGVjb3JhdGl2ZSBlbGVtZW50cwotIGAuYm9gIC8gYC5ic2Ag4oCUIE91dGxpbmVkIC8gZmlsbGVkIGJ1dHRvbnMgd2l0aCBwaXhlbC1zaGFkb3cgaG92ZXIgZWZmZWN0cwotIGAucHhiYCDigJQgUGl4ZWwgYm94LXNoYWRvdyAodXNlZCBvbiBFTlRFUiBidXR0b24pCi0gYC5zY3JlZW5gIOKAlCBgcG9zaXRpb246IGZpeGVkOyBpbnNldDogMDsgZmxleCBjZW50ZXJgIOKAlCBmdWxsIHZpZXdwb3J0IG92ZXJsYXkKLSBCYWNrZ3JvdW5kOiBgYm9keTo6YmVmb3JlYCBmaXhlZCBwc2V1ZG8tZWxlbWVudCAoZm9yIGlPUyBTYWZhcmkgY29tcGF0aWJpbGl0eSkKLSBDUlQgc2NhbmxpbmVzOiBgLmNydDFgICsgYC5jcnQyYCBvdmVybGF5cyBhdCB6LWluZGV4IDIwMC0yMDEKCiMjIyBNb2JpbGUgKENTUyB6b29tIGFwcHJvYWNoKQpVc2VzIGB6b29tYCBvbiBgLmNvbXB1dGVyLXdyYXBgIHRvIHByb3BvcnRpb25hbGx5IHNjYWxlIHRoZSBlbnRpcmUgbW9uaXRvciDigJQgbm8gbGF5b3V0IGJyZWFrYWdlLCBubyBjb250ZW50IGNsaXBwaW5nOgpgYGBjc3MKQG1lZGlhIChtYXgtd2lkdGg6IDY4MHB4KSB7IC5jb21wdXRlci13cmFwIHsgem9vbTogMC43ODsgfSB9CkBtZWRpYSAobWF4LXdpZHRoOiA1MjBweCkgeyAuY29tcHV0ZXItd3JhcCB7IHpvb206IDAuNjI7IH0gfQpAbWVkaWEgKG1heC13aWR0aDogNDAwcHgpIHsgLmNvbXB1dGVyLXdyYXAgeyB6b29tOiAwLjUyOyB9IH0KYGBgCmAuc2NyZWVuYCBnZXRzIGBvdmVyZmxvdy15OiBhdXRvOyBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtc3RhcnQ7IHBhZGRpbmctdG9wOiAxMDBweGAgb24gbW9iaWxlLgpIb21lIHRpdGxlIGdldHMgcmVzcG9uc2l2ZSBmb250LXNpemUgdmlhIGAuaG9tZS10aXRsZWAgY2xhc3MuCkhlYWRlciBlbGVtZW50cyAoYC5oZHJgLCBgLmhkci1sb2dvYCwgYC5oZHItbGFuZ2AsIGAuaGRyLXVzZXJgKSBzY2FsZSBkb3duLgoKLS0tCgojIyBEYXRhYmFzZSBTY2hlbWEgKFN1cGFiYXNlIFBvc3RncmVTUUwgKyBSTFMpCgojIyMgVGFibGVzCnwgVGFibGUgfCBQdXJwb3NlIHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IGBwdWJsaWNfdGFza3NgIHwgQWRtaW4tbWFpbnRhaW5lZCBtaXNzaW9ucyAoaWQsIGNvbnRlbnRfZW4sIGNvbnRlbnRfY24sIGNhdGVnb3J5KSDigJQgMjk1IHNlZWRlZCB8CnwgYGN1c3RvbV90YXNrc2AgfCBVc2VyLWNyZWF0ZWQgcHJpdmF0ZSB0YXNrcyAodXNlcl9pZCwgY29udGVudCkgfAp8IGBwdWJsaWNfY29tcGxldGlvbnNgIHwgVHJhY2tzIGNvbXBsZXRlZCBwdWJsaWMgdGFza3MgKHVzZXJfaWQgKyB0YXNrX2lkLCB1bmlxdWUpIHwKfCBgY3VzdG9tX2NvbXBsZXRpb25zYCB8IFRyYWNrcyBjb21wbGV0ZWQgY3VzdG9tIHRhc2tzIHwKfCBgcHVibGljX3NraXBzYCB8IFRyYWNrcyBza2lwcGVkIHB1YmxpYyB0YXNrcyB8CnwgYGN1c3RvbV9za2lwc2AgfCBUcmFja3Mgc2tpcHBlZCBjdXN0b20gdGFza3MgfAp8IGBwZW5kaW5nX3Rhc2tzYCB8IFVzZXItc3VibWl0dGVkIHN1Z2dlc3Rpb25zIChjb250ZW50LCBkZXNjcmlwdGlvbiwgc3VibWl0dGVkX2xhbmd1YWdlLCBzdGF0dXMpIHwKCiMjIyBSTFMgUG9saWNpZXMKLSBgcHVibGljX3Rhc2tzYDogQW55b25lIHJlYWRzLiBPbmx5IGFkbWluIChgMjc5OTc4Njk5NkBxcS5jb21gKSB3cml0ZXMuCi0gYGN1c3RvbV90YXNrc2AgLyBjb21wbGV0aW9ucyAvIHNraXBzOiBVc2VycyBDUlVEIG9ubHkgdGhlaXIgb3duIHJvd3MuCi0gYHBlbmRpbmdfdGFza3NgOiBBbnlvbmUgaW5zZXJ0cy4gT25seSBhZG1pbiByZWFkcy91cGRhdGVzLgoKLS0tCgojIyBBdXRoIEZsb3cKMS4gKipSZWdpc3RlcioqOiBTdXBhYmFzZSBzaWduVXAgd2l0aCBgZW1haWxSZWRpcmVjdFRvYCDihpIgYC9hdXRoL2NhbGxiYWNrYAoyLiAqKkVtYWlsIHZlcmlmaWNhdGlvbioqOiBVc2VyIGNsaWNrcyBsaW5rIOKGkiBgL2F1dGgvY2FsbGJhY2tgIGV4Y2hhbmdlcyB0b2tlbiDihpIgcmVkaXJlY3RzIHRvIGAvP3ZlcmlmaWVkPTFgCjMuICoqTG9naW4qKjogYHNpZ25JbldpdGhQYXNzd29yZGAg4oaSIHNldHMgdXNlciBzdGF0ZSDihpIgbG9hZHMgZGF0YSBmcm9tIERCCjQuICoqTG9nb3V0Kio6IENsZWFycyBhdXRoICsgcmVzZXRzIGFsbCBsb2NhbCBzdGF0ZQo1LiAqKkZvcmdvdCBwYXNzd29yZCoqOiBgcmVzZXRQYXNzd29yZEZvckVtYWlsYCB3aXRoIHJlZGlyZWN0IHRvIGAvYXV0aC9jYWxsYmFja2AKNi4gKipVbnJlZ2lzdGVyZWQgdXNlcnMqKjogQ2FuIHBsYXkgd2l0aCB0ZW1wIElEcyBzdG9yZWQgaW4gbG9jYWwgc3RhdGUuIFdoZW4gdGhleSByZWdpc3RlciwgdGVtcCBkYXRhIHN5bmNzIHRvIERCLgoKLS0tCgojIyBXaGF0J3MgV29ya2luZwotIEFsbCBnYW1lIHNjcmVlbnMgKGhvbWUsIGJvb3QsIHRhc2ssIG5leHQsIGNlbGVicmF0ZSwgY3VzdG9taXplLCBwcm9ncmVzcywgc3RhdGxpc3QsIG9mZmVyLCBzaWduaW4pCi0gRnVsbCBhdXRoIGZsb3cgKHJlZ2lzdGVyLCBsb2dpbiwgbG9nb3V0LCBlbWFpbCB2ZXJpZmljYXRpb24sIGZvcmdvdCBwYXNzd29yZCkKLSAyOTUgcHVibGljIHRhc2tzIHNlZWRlZCBpbiBEQiAoY2F0ZWdvcmllczogd2VsbG5lc3MsIG1pbmRmdWwsIHNvY2lhbCwgY3JlYXRpdmUsIGxlYXJuaW5nKQotIEJpbGluZ3VhbCBVSSAoRU4vQ04gdG9nZ2xlLCBwZXJzaXN0ZWQpCi0gQ3VzdG9tIHRhc2tzIHdpdGggQ1VTVE9NIE9OL09GRiB0b2dnbGUgKHBlcnNpc3RlZCkKLSBUd28gaW5kZXBlbmRlbnQgcHJvZ3Jlc3MgdHJhY2tzIChwdWJsaWMgdnMgY3VzdG9tKQotIE9wdGltaXN0aWMgVUkgdXBkYXRlcyBmb3IgRE9ORS9TS0lQL1NhdmUgKGluc3RhbnQgZmVlbCkKLSBBZG1pbiBwYW5lbCBhdCBgL2FkbWluYCAodGFzayBDUlVELCBidWxrIGltcG9ydCwgcGVuZGluZyByZXZpZXcsIHN0YXRzKQotIERlc2t0b3AgbGF5b3V0OiBwaXhlbC1wZXJmZWN0IENSVCBtb25pdG9yCi0gTW9iaWxlIGxheW91dDogYWxsIHNjcmVlbnMgZml0IGFuZCBhcmUgdXNhYmxlIHZpYSBDU1Mgem9vbSBzY2FsaW5nCi0gTG9hZGluZyBnYXRlIG9uIEVOVEVSIGJ1dHRvbiBwcmV2ZW50cyBjZWxlYnJhdGlvbi1vbi1yZWZyZXNoIGJ1ZwotIERlcGxveWVkIHRvIFZlcmNlbDogaHR0cHM6Ly9lYXJ0aC1vbmxpbmUtZ2FtbWEudmVyY2VsLmFwcAoKLS0tCgojIyBLbm93biBJc3N1ZXMgLyBSZW1haW5pbmcgV29yawoKIyMjIE11c3QgRml4CjEuICoqU3VwYWJhc2UgU2l0ZSBVUkwqKiDigJQgTmVlZCB0byBzZXQgU2l0ZSBVUkwgdG8gYGh0dHBzOi8vZWFydGgtb25saW5lLWdhbW1hLnZlcmNlbC5hcHBgIGluIFN1cGFiYXNlIERhc2hib2FyZCDihpIgQXV0aGVudGljYXRpb24g4oaSIFVSTCBDb25maWd1cmF0aW9uLiBXaXRob3V0IHRoaXMsIGVtYWlsIHZlcmlmaWNhdGlvbiBsaW5rcyBtYXkgbm90IHdvcmsgY29ycmVjdGx5IGluIHByb2R1Y3Rpb24uCgojIyMgTmljZSB0byBIYXZlCjIuICoqVlBOIHJlcXVpcmVkIGZyb20gQ2hpbmEqKiDigJQgVmVyY2VsICsgU3VwYWJhc2UgYXJlIGJsb2NrZWQgd2l0aG91dCBwcm94eS4gT3B0aW9uczogY3VzdG9tIGRvbWFpbiBvbiBWZXJjZWwsIG9yIGFsdGVybmF0aXZlIGhvc3RpbmcgKENsb3VkZmxhcmUgUGFnZXMsIGV0Yy4pCjMuICoqY3VzdFNhdmUgZGVib3VuY2luZyoqIOKAlCBgc2F2aW5nQ3VzdGAgZmxhZyBleGlzdHMgYW5kIGlzIHdpcmVkIHVwLCBidXQgcmFwaWQga2V5Ym9hcmQgRW50ZXIgY291bGQgc3RpbGwgcXVldWUgbXVsdGlwbGUgc2F2ZXMuIENvbnNpZGVyIGRpc2FibGluZyBpbnB1dCBicmllZmx5Lgo0LiAqKkNlbGVicmF0aW9uIGVkZ2UgY2FzZSoqIOKAlCBJZiBhIHVzZXIgY29tcGxldGVzIHRoZSB2ZXJ5IGxhc3QgdGFzaywgdGhlbiByZWZyZXNoZXMgbWlkLWNlbGVicmF0aW9uLCB0aGV5J2xsIHNlZSB0aGUgY2VsZWJyYXRpb24gYWdhaW4gKGNvcnJlY3QgYmVoYXZpb3IsIGJ1dCBubyB3YXkgdG8gZGlzbWlzcyB3aXRob3V0IGNsaWNraW5nIEhPTUUvUExBWSBBR0FJTikuCjUuICoqTW9iaWxlIGtleWJvYXJkKiog4oCUIE9uIGN1c3RvbWl6ZSBzY3JlZW4sIG1vYmlsZSBrZXlib2FyZCBtYXkgcHVzaCBjb250ZW50IHVwLiBDb3VsZCBhZGQgdmlld3BvcnQgbWV0YSBhZGp1c3RtZW50cy4KNi4gKipDdXN0b20gZG9tYWluKiog4oCUIFVzZXIgYXNrZWQgYWJvdXQgZ2V0dGluZyBgZWFydGhvbmxpbmUuY29tYCDigJQgcmVxdWlyZXMgcHVyY2hhc2luZyBkb21haW4gYW5kIGFkZGluZyB0byBWZXJjZWwuCgotLS0KCiMjIFVzZXIgUHJlZmVyZW5jZXMgJiBOb3RlcwotIFVzZXIgY29tbXVuaWNhdGVzIGluIENoaW5lc2UsIFVJIGV4cGxhbmF0aW9ucyBzaG91bGQgYmUgaW4gQ2hpbmVzZQotIFVzZXIncyBTdXBhYmFzZSBhY2NvdW50IGlzIHZpYSBHaXRIdWIgbG9naW4sIGFkbWluIGVtYWlsIGlzIGAyNzk5Nzg2OTk2QHFxLmNvbWAKLSBVc2VyJ3MgcHJveHkgaXMgU2hhZG93cm9ja2V0IGF0IGBodHRwOi8vMTI3LjAuMC4xOjEwODJgCi0gU3VwYWJhc2UgZnJlZSB0aWVyIGxpbWl0cyBlbWFpbCBzZW5kaW5nIHRvIH40L2hvdXIKLSBVc2VyIG1hbnVhbGx5IHZlcmlmaWVkIHRoZWlyIG93biBhY2NvdW50IHZpYSBTUUwgKGJ5cGFzc2VkIGVtYWlsIHZlcmlmaWNhdGlvbikKLSBTZXJ2aWNlIHJvbGUga2V5IHdhcyB1c2VkIGZvciBzZWVkIHNjcmlwdHMg4oCUIHN0b3JlZCBpbiBgc2NyaXB0cy9ydW4tc2VlZC5tanNgCg=="
-}
+# EARTH ONLINE — Session Handoff
+
+## Project Overview
+**EARTH ONLINE** is a retro pixel-art "real-life quest" website. Users receive random real-world missions displayed inside a CRT monitor UI, and can mark them DONE or SKIP. Features include user auth, bilingual UI (EN/CN), public + custom task tracks, and an admin panel.
+
+- **Live URL**: https://earth-online-gamma.vercel.app
+- **Stack**: Next.js 16 (App Router) + Tailwind CSS 4 + Supabase + Vercel
+- **Path**: `/Users/liuzhiyu/Desktop/Claude/earth-online`
+
+---
+
+## Environment & Credentials
+
+### `.env.local`
+```
+NEXT_PUBLIC_SUPABASE_URL=https://iwndbljpyfbluttcnqvq.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Iml3bmRibGpweWZibHV0dGNucXZxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzU1Njc3NzcsImV4cCI6MjA5MTE0Mzc3N30.i140cOYuAkq_EpntTvLrGHY4I_wb31an1H_jXMcJgSc
+ADMIN_EMAIL=2799786996@qq.com
+```
+
+### Network (China)
+All npm/Vercel/Supabase commands require proxy:
+```bash
+export PATH="/usr/local/bin:$PATH"
+export https_proxy=http://127.0.0.1:1082
+export http_proxy=http://127.0.0.1:1082
+```
+
+### Commands
+```bash
+npm run dev          # Dev server on :3000
+npm run build        # Production build
+npx vercel --yes --prod   # Deploy to Vercel (needs proxy)
+```
+
+---
+
+## File Structure (key files only)
+
+```
+src/
+  app/
+    page.tsx              # Just renders <Game />
+    layout.tsx            # HTML head (Google Fonts: Space Grotesk + Material Symbols)
+    globals.css           # ALL custom CSS (294 lines) — monitor, buttons, animations, mobile responsive
+    admin/page.tsx        # Admin panel — task CRUD, bulk import, pending review, stats
+    auth/callback/route.ts # Handles email verification + OAuth redirects → /?verified=1
+  components/
+    Game.tsx              # THE MAIN FILE (993 lines) — all game logic + screen rendering
+    Monitor.tsx           # CRT monitor shell (div.computer-wrap > div.mon > div.scn)
+    Clouds.tsx            # Animated cloud elements
+    Tags.tsx              # Bottom nav tags (CUSTOMIZE / PROGRESS / OFFER A MISSION)
+  lib/
+    supabase.ts           # Supabase client singleton
+    translations.ts       # TX object — all EN/CN UI strings, NO translation API
+    critters.ts           # 6 pixel animal SVGs (cat, dog, rabbit, bird, frog, fish)
+    store.ts              # TypeScript types: PublicTask, CustomTask, GameState
+supabase-schema.sql       # Full DB schema + RLS policies
+scripts/
+  run-seed.mjs            # Seeds 295 tasks (uses service_role key + proxy)
+  fix-quotes.mjs          # Fixed ASCII quotes → smart quotes in DB
+```
+
+---
+
+## Game.tsx Architecture (993 lines, single client component)
+
+### State
+| State | Purpose |
+|-------|---------|
+| `lang` | 'en' or 'cn', persisted to localStorage |
+| `screen` | Current view: home/boot/task/next/celebrate/customize/progress/statlist/offer/signin |
+| `customMode` | Toggle between public and custom task tracks, persisted to localStorage |
+| `user` | `{id, email, username}` or null |
+| `publicTasks` | Array of `{id, content_en, content_cn, category}` from DB |
+| `customTasks` | Array of `{id, content}` — user-created |
+| `completedPublic/Custom` | Arrays of completed task IDs |
+| `skippedPublic/Custom` | Arrays of skipped task IDs |
+| `currentTaskId` | Currently displayed task |
+| `tasksLoaded` | Boolean — gates ENTER button to prevent celebration-on-refresh bug |
+| `hasPlayed` | Whether user has entered a game session |
+| `savingCust` / `actionBusy` | Debounce flags |
+
+### Key Functions
+- **`startBoot()`** — Boot terminal animation → picks random task → shows task screen. Guarded by `tasksLoaded`.
+- **`doDone()` / `doSkip()`** — Optimistic UI updates (instant), DB sync in background (fire-and-forget).
+- **`showCelebration()`** — Fireworks canvas animation with `fwRunId` pattern to prevent animation speedup on re-trigger.
+- **`custSave()`** — Optimistic add with temp ID, replaced by real DB ID in background.
+- **`doAuth()`** — Handles both sign in and register. Register sends verification email via Supabase.
+- **`syncFromDB()`** — On login, loads completions/skips/custom tasks from DB, merges with local state.
+
+### Screens Rendered (conditionally by `screen` state)
+1. **home** — Title "EARTH ONLINE" + ENTER button + rodent icon + Tags
+2. **boot** — Terminal animation inside Monitor
+3. **task** — Task text + SKIP/DONE buttons inside Monitor
+4. **next** — Random pixel animal + "NEXT MISSION" + random subtitle
+5. **celebrate** — Fireworks canvas + congratulations + HOME/PLAY AGAIN/PROGRESS
+6. **customize** — Custom task list + input + CUSTOM ON/OFF toggle
+7. **progress** — Progress bar + percentage + DONE/REMAINING/SKIPPED stats
+8. **statlist** — Scrollable list of tasks by category (done/remaining/skipped)
+9. **offer** — Email-style form to suggest missions → pending_tasks table
+10. **signin** — Sign In / Register tabs + Forgot Password flow
+
+---
+
+## CSS Architecture (globals.css, 294 lines)
+
+### Desktop (default)
+- `.mon` — 580x440px, beveled gray frame with inset shadows
+- `.scn` — Dark screen with scanline overlay (::after), flex center
+- `.stand` — 300x48px connector piece
+- `.base` — 620x72px bottom with decorative elements
+- `.bo` / `.bs` — Outlined / filled buttons with pixel-shadow hover effects
+- `.pxb` — Pixel box-shadow (used on ENTER button)
+- `.screen` — `position: fixed; inset: 0; flex center` — full viewport overlay
+- Background: `body::before` fixed pseudo-element (for iOS Safari compatibility)
+- CRT scanlines: `.crt1` + `.crt2` overlays at z-index 200-201
+
+### Mobile (CSS zoom approach)
+Uses `zoom` on `.computer-wrap` to proportionally scale the entire monitor — no layout breakage, no content clipping:
+```css
+@media (max-width: 680px) { .computer-wrap { zoom: 0.78; } }
+@media (max-width: 520px) { .computer-wrap { zoom: 0.62; } }
+@media (max-width: 400px) { .computer-wrap { zoom: 0.52; } }
+```
+`.screen` gets `overflow-y: auto; justify-content: flex-start; padding-top: 100px` on mobile.
+Home title gets responsive font-size via `.home-title` class.
+Header elements (`.hdr`, `.hdr-logo`, `.hdr-lang`, `.hdr-user`) scale down.
+
+---
+
+## Database Schema (Supabase PostgreSQL + RLS)
+
+### Tables
+| Table | Purpose |
+|-------|---------|
+| `public_tasks` | Admin-maintained missions (id, content_en, content_cn, category) — 295 seeded |
+| `custom_tasks` | User-created private tasks (user_id, content) |
+| `public_completions` | Tracks completed public tasks (user_id + task_id, unique) |
+| `custom_completions` | Tracks completed custom tasks |
+| `public_skips` | Tracks skipped public tasks |
+| `custom_skips` | Tracks skipped custom tasks |
+| `pending_tasks` | User-submitted suggestions (content, description, submitted_language, status) |
+
+### RLS Policies
+- `public_tasks`: Anyone reads. Only admin (`2799786996@qq.com`) writes.
+- `custom_tasks` / completions / skips: Users CRUD only their own rows.
+- `pending_tasks`: Anyone inserts. Only admin reads/updates.
+
+---
+
+## Auth Flow
+1. **Register**: Supabase signUp with `emailRedirectTo` → `/auth/callback`
+2. **Email verification**: User clicks link → `/auth/callback` exchanges token → redirects to `/?verified=1`
+3. **Login**: `signInWithPassword` → sets user state → loads data from DB
+4. **Logout**: Clears auth + resets all local state
+5. **Forgot password**: `resetPasswordForEmail` with redirect to `/auth/callback`
+6. **Unregistered users**: Can play with temp IDs stored in local state. When they register, temp data syncs to DB.
+
+---
+
+## What's Working
+- All game screens (home, boot, task, next, celebrate, customize, progress, statlist, offer, signin)
+- Full auth flow (register, login, logout, email verification, forgot password)
+- 295 public tasks seeded in DB (categories: wellness, mindful, social, creative, learning)
+- Bilingual UI (EN/CN toggle, persisted)
+- Custom tasks with CUSTOM ON/OFF toggle (persisted)
+- Two independent progress tracks (public vs custom)
+- Optimistic UI updates for DONE/SKIP/Save (instant feel)
+- Admin panel at `/admin` (task CRUD, bulk import, pending review, stats)
+- Desktop layout: pixel-perfect CRT monitor
+- Mobile layout: all screens fit and are usable via CSS zoom scaling
+- Loading gate on ENTER button prevents celebration-on-refresh bug
+- Deployed to Vercel: https://earth-online-gamma.vercel.app
+
+---
+
+## Known Issues / Remaining Work
+
+### Must Fix
+1. **Supabase Site URL** — Need to set Site URL to `https://earth-online-gamma.vercel.app` in Supabase Dashboard → Authentication → URL Configuration. Without this, email verification links may not work correctly in production.
+
+### Nice to Have
+2. **VPN required from China** — Vercel + Supabase are blocked without proxy. Options: custom domain on Vercel, or alternative hosting (Cloudflare Pages, etc.)
+3. **custSave debouncing** — `savingCust` flag exists and is wired up, but rapid keyboard Enter could still queue multiple saves. Consider disabling input briefly.
+4. **Celebration edge case** — If a user completes the very last task, then refreshes mid-celebration, they'll see the celebration again (correct behavior, but no way to dismiss without clicking HOME/PLAY AGAIN).
+5. **Mobile keyboard** — On customize screen, mobile keyboard may push content up. Could add viewport meta adjustments.
+6. **Custom domain** — User asked about getting `earthonline.com` — requires purchasing domain and adding to Vercel.
+
+---
+
+## User Preferences & Notes
+- User communicates in Chinese, UI explanations should be in Chinese
+- User's Supabase account is via GitHub login, admin email is `2799786996@qq.com`
+- User's proxy is Shadowrocket at `http://127.0.0.1:1082`
+- Supabase free tier limits email sending to ~4/hour
+- User manually verified their own account via SQL (bypassed email verification)
+- Service role key was used for seed scripts — stored in `scripts/run-seed.mjs`

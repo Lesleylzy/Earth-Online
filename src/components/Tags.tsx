@@ -1,3 +1,37 @@
-{
-  "data": "J3VzZSBjbGllbnQnCmltcG9ydCB7IFRYIH0gZnJvbSAnQC9saWIvdHJhbnNsYXRpb25zJwoKaW50ZXJmYWNlIFRhZ3NQcm9wcyB7CiAgbGFuZzogc3RyaW5nCiAgb25OYXZpZ2F0ZTogKHNjcmVlbjogc3RyaW5nKSA9PiB2b2lkCiAgYWN0aXZlPzogc3RyaW5nCn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFRhZ3MoeyBsYW5nLCBvbk5hdmlnYXRlLCBhY3RpdmUgfTogVGFnc1Byb3BzKSB7CiAgY29uc3QgdCA9IChrOiBzdHJpbmcpID0+IFRYW2xhbmddPy5ba10gfHwgawogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0idGFncy13cmFwIiBzdHlsZT17eyBkaXNwbGF5OiAnZmxleCcsIGdhcDogMTYsIG1hcmdpblRvcDogMzIsIGZsZXhXcmFwOiAnd3JhcCcsIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJyB9fT4KICAgICAgPGRpdgogICAgICAgIGNsYXNzTmFtZT0idGFnIgogICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6ICdyZ2JhKDg2LDk4LDgyLC4zNSknIH19CiAgICAgICAgb25DbGljaz17YWN0aXZlICE9PSAnY3VzdG9taXplJyA/ICgpID0+IG9uTmF2aWdhdGUoJ2N1c3RvbWl6ZScpIDogdW5kZWZpbmVkfQogICAgICA+CiAgICAgICAge3QoJ3RhZ0MnKX0KICAgICAgPC9kaXY+CiAgICAgIDxkaXYKICAgICAgICBjbGFzc05hbWU9InRhZyIKICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiAncmdiYSg3Miw5NywxMTksLjM1KScgfX0KICAgICAgICBvbkNsaWNrPXthY3RpdmUgIT09ICdwcm9ncmVzcycgPyAoKSA9PiBvbk5hdmlnYXRlKCdwcm9ncmVzcycpIDogdW5kZWZpbmVkfQogICAgICA+CiAgICAgICAge3QoJ3RhZ1AnKX0KICAgICAgPC9kaXY+CiAgICAgIDxkaXYKICAgICAgICBjbGFzc05hbWU9InRhZyIKICAgICAgICBzdHlsZT17eyBiYWNrZ3JvdW5kOiAncmdiYSgxMDUsOTIsODksLjM1KScgfX0KICAgICAgICBvbkNsaWNrPXthY3RpdmUgIT09ICdvZmZlcicgPyAoKSA9PiBvbk5hdmlnYXRlKCdvZmZlcicpIDogdW5kZWZpbmVkfQogICAgICA+CiAgICAgICAge3QoJ3RhZ08nKX0KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApCn0K"
+'use client'
+import { TX } from '@/lib/translations'
+
+interface TagsProps {
+  lang: string
+  onNavigate: (screen: string) => void
+  active?: string
+}
+
+export default function Tags({ lang, onNavigate, active }: TagsProps) {
+  const t = (k: string) => TX[lang]?.[k] || k
+  return (
+    <div className="tags-wrap" style={{ display: 'flex', gap: 16, marginTop: 32, flexWrap: 'wrap', justifyContent: 'center' }}>
+      <div
+        className="tag"
+        style={{ background: 'rgba(86,98,82,.35)' }}
+        onClick={active !== 'customize' ? () => onNavigate('customize') : undefined}
+      >
+        {t('tagC')}
+      </div>
+      <div
+        className="tag"
+        style={{ background: 'rgba(72,97,119,.35)' }}
+        onClick={active !== 'progress' ? () => onNavigate('progress') : undefined}
+      >
+        {t('tagP')}
+      </div>
+      <div
+        className="tag"
+        style={{ background: 'rgba(105,92,89,.35)' }}
+        onClick={active !== 'offer' ? () => onNavigate('offer') : undefined}
+      >
+        {t('tagO')}
+      </div>
+    </div>
+  )
 }

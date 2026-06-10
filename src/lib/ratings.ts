@@ -1,3 +1,130 @@
-{
-  "data": "aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICcuL3N1cGFiYXNlJwoKZXhwb3J0IGludGVyZmFjZSBEYWlseVJhdGluZyB7CiAgZGF0ZTogc3RyaW5nIC8vICdZWVlZLU1NLUREJwogIHN0YXJzOiBudW1iZXIKICBjb21tZW50OiBzdHJpbmcKICB1cGRhdGVkX2F0Pzogc3RyaW5nCn0KCmV4cG9ydCB0eXBlIFJhdGluZ3NNYXAgPSBSZWNvcmQ8c3RyaW5nLCBEYWlseVJhdGluZz4KCmNvbnN0IExTX0tFWSA9ICdlYXJ0aF9yYXRpbmdzJwoKLyog4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSAIExvY2FsIGhlbHBlcnMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSAICovCmV4cG9ydCBmdW5jdGlvbiB0b2RheVN0cigpOiBzdHJpbmcgewogIGNvbnN0IGQgPSBuZXcgRGF0ZSgpCiAgcmV0dXJuICgKICAgIGQuZ2V0RnVsbFllYXIoKSArCiAgICAnLScgKwogICAgU3RyaW5nKGQuZ2V0TW9udGgoKSArIDEpLnBhZFN0YXJ0KDIsICcwJykgKwogICAgJy0nICsKICAgIFN0cmluZyhkLmdldERhdGUoKSkucGFkU3RhcnQoMiwgJzAnKQogICkKfQoKZXhwb3J0IGZ1bmN0aW9uIGRhdGVTdHIoeTogbnVtYmVyLCBtOiBudW1iZXIsIGQ6IG51bWJlcik6IHN0cmluZyB7CiAgcmV0dXJuIHkgKyAnLScgKyBTdHJpbmcobSArIDEpLnBhZFN0YXJ0KDIsICcwJykgKyAnLScgKyBTdHJpbmcoZCkucGFkU3RhcnQoMiwgJzAnKQp9CgpleHBvcnQgZnVuY3Rpb24gaXNUb2RheShkOiBzdHJpbmcpOiBib29sZWFuIHsKICByZXR1cm4gZCA9PT0gdG9kYXlTdHIoKQp9CgpleHBvcnQgZnVuY3Rpb24gaXNQYXN0KGQ6IHN0cmluZyk6IGJvb2xlYW4gewogIHJldHVybiBkIDwgdG9kYXlTdHIoKQp9CgpleHBvcnQgZnVuY3Rpb24gaXNGdXR1cmUoZDogc3RyaW5nKTogYm9vbGVhbiB7CiAgcmV0dXJuIGQgPiB0b2RheVN0cigpCn0KCi8qIOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgCBMb2NhbFN0b3JhZ2UgZmFsbGJhY2sg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSAICovCmZ1bmN0aW9uIGxvYWRMb2NhbCgpOiBSYXRpbmdzTWFwIHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gJ3VuZGVmaW5lZCcpIHJldHVybiB7fQogIHRyeSB7CiAgICBjb25zdCByYXcgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbShMU19LRVkpCiAgICByZXR1cm4gcmF3ID8gSlNPTi5wYXJzZShyYXcpIDoge30KICB9IGNhdGNoIHsKICAgIHJldHVybiB7fQogIH0KfQoKZnVuY3Rpb24gc2F2ZUxvY2FsKHJhdGluZ3M6IFJhdGluZ3NNYXApOiB2b2lkIHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gJ3VuZGVmaW5lZCcpIHJldHVybgogIHRyeSB7CiAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShMU19LRVksIEpTT04uc3RyaW5naWZ5KHJhdGluZ3MpKQogIH0gY2F0Y2ggewogICAgLyogaWdub3JlIHF1b3RhIGVycm9ycyAqLwogIH0KfQoKLyog4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSAIFN1cGFiYXNlIG9wZXJhdGlvbnMg4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSAICovCi8qKgogKiBGZXRjaCBhbGwgcmF0aW5ncyBmb3IgYSBnaXZlbiBtb250aC4KICogTG9nZ2VkIGluIOKGkiBTdXBhYmFzZS4gT3RoZXJ3aXNlIOKGkiBsb2NhbFN0b3JhZ2UuCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZmV0Y2hNb250aFJhdGluZ3MoCiAgdXNlcklkOiBzdHJpbmcgfCBudWxsLAogIHllYXI6IG51bWJlciwKICBtb250aDogbnVtYmVyCik6IFByb21pc2U8UmF0aW5nc01hcD4gewogIGlmICghdXNlcklkKSByZXR1cm4gbG9hZExvY2FsKCkKCiAgY29uc3QgbW0gPSBTdHJpbmcobW9udGggKyAxKS5wYWRTdGFydCgyLCAnMCcpCiAgY29uc3QgZmlyc3REYXkgPSBgJHt5ZWFyfS0ke21tfS0wMWAKICBjb25zdCBsYXN0RGF5ID0gYCR7eWVhcn0tJHttbX0tJHtuZXcgRGF0ZSh5ZWFyLCBtb250aCArIDEsIDApLmdldERhdGUoKX1gCgogIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlCiAgICAuZnJvbSgnZGFpbHlfcmF0aW5ncycpCiAgICAuc2VsZWN0KCdkYXRlLCBzdGFycywgY29tbWVudCwgdXBkYXRlZF9hdCcpCiAgICAuZXEoJ3VzZXJfaWQnLCB1c2VySWQpCiAgICAuZ3RlKCdkYXRlJywgZmlyc3REYXkpCiAgICAubHRlKCdkYXRlJywgbGFzdERheSkKCiAgaWYgKGVycm9yIHx8ICFkYXRhKSByZXR1cm4ge30KCiAgY29uc3QgcmVzdWx0OiBSYXRpbmdzTWFwID0ge30KICBmb3IgKGNvbnN0IHJvdyBvZiBkYXRhKSB7CiAgICByZXN1bHRbcm93LmRhdGVdID0gewogICAgICBkYXRlOiByb3cuZGF0ZSwKICAgICAgc3RhcnM6IHJvdy5zdGFycywKICAgICAgY29tbWVudDogcm93LmNvbW1lbnQgfHwgJycsCiAgICAgIHVwZGF0ZWRfYXQ6IHJvdy51cGRhdGVkX2F0LAogICAgfQogIH0KICByZXR1cm4gcmVzdWx0Cn0KCi8qKgogKiBJbnNlcnQgb3IgdXBkYXRlIGEgcmF0aW5nLiBSZXR1cm5zIHRydWUgb24gc3VjY2Vzcy4KICogTG9nZ2VkIGluIOKGkiBTdXBhYmFzZSB1cHNlcnQuIE90aGVyd2lzZSDihpIgbG9jYWxTdG9yYWdlLgogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHVwc2VydFJhdGluZygKICB1c2VySWQ6IHN0cmluZyB8IG51bGwsCiAgZGF0ZTogc3RyaW5nLAogIHN0YXJzOiBudW1iZXIsCiAgY29tbWVudDogc3RyaW5nCik6IFByb21pc2U8Ym9vbGVhbj4gewogIGlmICghdXNlcklkKSB7CiAgICBjb25zdCBhbGwgPSBsb2FkTG9jYWwoKQogICAgYWxsW2RhdGVdID0geyBkYXRlLCBzdGFycywgY29tbWVudDogY29tbWVudCB8fCAnJywgdXBkYXRlZF9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpIH0KICAgIHNhdmVMb2NhbChhbGwpCiAgICByZXR1cm4gdHJ1ZQogIH0KCiAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UKICAgIC5mcm9tKCdkYWlseV9yYXRpbmdzJykKICAgIC51cHNlcnQoCiAgICAgIHsKICAgICAgICB1c2VyX2lkOiB1c2VySWQsCiAgICAgICAgZGF0ZSwKICAgICAgICBzdGFycywKICAgICAgICBjb21tZW50OiBjb21tZW50IHx8IG51bGwsCiAgICAgICAgdXBkYXRlZF9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLAogICAgICB9LAogICAgICB7IG9uQ29uZmxpY3Q6ICd1c2VyX2lkLGRhdGUnIH0KICAgICkKCiAgcmV0dXJuICFlcnJvcgp9Cg=="
+import { supabase } from './supabase'
+
+export interface DailyRating {
+  date: string // 'YYYY-MM-DD'
+  stars: number
+  comment: string
+  updated_at?: string
+}
+
+export type RatingsMap = Record<string, DailyRating>
+
+const LS_KEY = 'earth_ratings'
+
+/* ───────── Local helpers ───────── */
+export function todayStr(): string {
+  const d = new Date()
+  return (
+    d.getFullYear() +
+    '-' +
+    String(d.getMonth() + 1).padStart(2, '0') +
+    '-' +
+    String(d.getDate()).padStart(2, '0')
+  )
+}
+
+export function dateStr(y: number, m: number, d: number): string {
+  return y + '-' + String(m + 1).padStart(2, '0') + '-' + String(d).padStart(2, '0')
+}
+
+export function isToday(d: string): boolean {
+  return d === todayStr()
+}
+
+export function isPast(d: string): boolean {
+  return d < todayStr()
+}
+
+export function isFuture(d: string): boolean {
+  return d > todayStr()
+}
+
+/* ───────── LocalStorage fallback ───────── */
+function loadLocal(): RatingsMap {
+  if (typeof window === 'undefined') return {}
+  try {
+    const raw = localStorage.getItem(LS_KEY)
+    return raw ? JSON.parse(raw) : {}
+  } catch {
+    return {}
+  }
+}
+
+function saveLocal(ratings: RatingsMap): void {
+  if (typeof window === 'undefined') return
+  try {
+    localStorage.setItem(LS_KEY, JSON.stringify(ratings))
+  } catch {
+    /* ignore quota errors */
+  }
+}
+
+/* ───────── Supabase operations ───────── */
+/**
+ * Fetch all ratings for a given month.
+ * Logged in → Supabase. Otherwise → localStorage.
+ */
+export async function fetchMonthRatings(
+  userId: string | null,
+  year: number,
+  month: number
+): Promise<RatingsMap> {
+  if (!userId) return loadLocal()
+
+  const mm = String(month + 1).padStart(2, '0')
+  const firstDay = `${year}-${mm}-01`
+  const lastDay = `${year}-${mm}-${new Date(year, month + 1, 0).getDate()}`
+
+  const { data, error } = await supabase
+    .from('daily_ratings')
+    .select('date, stars, comment, updated_at')
+    .eq('user_id', userId)
+    .gte('date', firstDay)
+    .lte('date', lastDay)
+
+  if (error || !data) return {}
+
+  const result: RatingsMap = {}
+  for (const row of data) {
+    result[row.date] = {
+      date: row.date,
+      stars: row.stars,
+      comment: row.comment || '',
+      updated_at: row.updated_at,
+    }
+  }
+  return result
+}
+
+/**
+ * Insert or update a rating. Returns true on success.
+ * Logged in → Supabase upsert. Otherwise → localStorage.
+ */
+export async function upsertRating(
+  userId: string | null,
+  date: string,
+  stars: number,
+  comment: string
+): Promise<boolean> {
+  if (!userId) {
+    const all = loadLocal()
+    all[date] = { date, stars, comment: comment || '', updated_at: new Date().toISOString() }
+    saveLocal(all)
+    return true
+  }
+
+  const { error } = await supabase
+    .from('daily_ratings')
+    .upsert(
+      {
+        user_id: userId,
+        date,
+        stars,
+        comment: comment || null,
+        updated_at: new Date().toISOString(),
+      },
+      { onConflict: 'user_id,date' }
+    )
+
+  return !error
 }

@@ -1,3 +1,37 @@
-{
-  "data": "aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAnQHN1cGFiYXNlL3N1cGFiYXNlLWpzJwppbXBvcnQgeyBzZWVkVGFza3MgfSBmcm9tICcuLi9zcmMvbGliL3NlZWQtdGFza3MnCgpjb25zdCBzdXBhYmFzZVVybCA9IHByb2Nlc3MuZW52Lk5FWFRfUFVCTElDX1NVUEFCQVNFX1VSTApjb25zdCBzdXBhYmFzZUtleSA9IHByb2Nlc3MuZW52Lk5FWFRfUFVCTElDX1NVUEFCQVNFX0FOT05fS0VZCgppZiAoIXN1cGFiYXNlVXJsIHx8ICFzdXBhYmFzZUtleSkgewogIGNvbnNvbGUuZXJyb3IoJ01pc3NpbmcgTkVYVF9QVUJMSUNfU1VQQUJBU0VfVVJMIG9yIE5FWFRfUFVCTElDX1NVUEFCQVNFX0FOT05fS0VZIGluIGVudmlyb25tZW50JykKICBjb25zb2xlLmVycm9yKCdNYWtlIHN1cmUgLmVudi5sb2NhbCBpcyBjb25maWd1cmVkIHByb3Blcmx5JykKICBwcm9jZXNzLmV4aXQoMSkKfQoKY29uc3Qgc3VwYWJhc2UgPSBjcmVhdGVDbGllbnQoc3VwYWJhc2VVcmwsIHN1cGFiYXNlS2V5KQoKYXN5bmMgZnVuY3Rpb24gc2VlZCgpIHsKICBjb25zb2xlLmxvZygnQ2hlY2tpbmcgZXhpc3RpbmcgdGFza3MuLi4nKQogIGNvbnN0IHsgY291bnQgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oJ3B1YmxpY190YXNrcycpLnNlbGVjdCgnKicsIHsgY291bnQ6ICdleGFjdCcsIGhlYWQ6IHRydWUgfSkKCiAgaWYgKGNvdW50ICYmIGNvdW50ID4gMCkgewogICAgY29uc29sZS5sb2coYERhdGFiYXNlIGFscmVhZHkgaGFzICR7Y291bnR9IHRhc2tzLiBTa2lwcGluZyBzZWVkLmApCiAgICBjb25zb2xlLmxvZygnSWYgeW91IHdhbnQgdG8gcmUtc2VlZCwgZGVsZXRlIGV4aXN0aW5nIHRhc2tzIGZpcnN0LicpCiAgICByZXR1cm4KICB9CgogIGNvbnNvbGUubG9nKGBJbnNlcnRpbmcgJHtzZWVkVGFza3MubGVuZ3RofSB0YXNrcy4uLmApCiAgY29uc3QgeyBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UuZnJvbSgncHVibGljX3Rhc2tzJykuaW5zZXJ0KHNlZWRUYXNrcykKCiAgaWYgKGVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKCdTZWVkIGZhaWxlZDonLCBlcnJvci5tZXNzYWdlKQogICAgY29uc29sZS5lcnJvcignTWFrZSBzdXJlIHlvdSBhcmUgc2lnbmVkIGluIGFzIGFkbWluIGFuZCBSTFMgcG9saWNpZXMgYXJlIHNldCB1cC4nKQogICAgcHJvY2Vzcy5leGl0KDEpCiAgfQoKICBjb25zb2xlLmxvZyhgU3VjY2Vzc2Z1bGx5IHNlZWRlZCAke3NlZWRUYXNrcy5sZW5ndGh9IHRhc2tzIWApCn0KCnNlZWQoKQo="
+import { createClient } from '@supabase/supabase-js'
+import { seedTasks } from '../src/lib/seed-tasks'
+
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+
+if (!supabaseUrl || !supabaseKey) {
+  console.error('Missing NEXT_PUBLIC_SUPABASE_URL or NEXT_PUBLIC_SUPABASE_ANON_KEY in environment')
+  console.error('Make sure .env.local is configured properly')
+  process.exit(1)
 }
+
+const supabase = createClient(supabaseUrl, supabaseKey)
+
+async function seed() {
+  console.log('Checking existing tasks...')
+  const { count } = await supabase.from('public_tasks').select('*', { count: 'exact', head: true })
+
+  if (count && count > 0) {
+    console.log(`Database already has ${count} tasks. Skipping seed.`)
+    console.log('If you want to re-seed, delete existing tasks first.')
+    return
+  }
+
+  console.log(`Inserting ${seedTasks.length} tasks...`)
+  const { error } = await supabase.from('public_tasks').insert(seedTasks)
+
+  if (error) {
+    console.error('Seed failed:', error.message)
+    console.error('Make sure you are signed in as admin and RLS policies are set up.')
+    process.exit(1)
+  }
+
+  console.log(`Successfully seeded ${seedTasks.length} tasks!`)
+}
+
+seed()
